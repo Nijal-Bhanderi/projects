@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code to Pseudocode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Code to Pseudocode Converter</h1>
+
+        <div class="grid">
+            <div class="column">
+                <label for="codeInput">Paste Your Code:</label>
+                <textarea id="codeInput" placeholder="Enter your code here..."></textarea>
+            </div>
+
+            <div class="column">
+                <label for="pseudoOutput">Generated Pseudocode:</label>
+                <textarea id="pseudoOutput" readonly></textarea>
+            </div>
+        </div>
+
+        <button onclick="convertCode()">Convert</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
